@@ -6,7 +6,7 @@ from data_processor import convert_to_dataframe, clean_dataframe
 from insights import *
 
 st.set_page_config(page_title="Monday BI Agent", layout="wide")
-st.title("🚀 Monday Business Intelligence Agent")
+st.title("Business Intelligence Agent")
 
 WORK_BOARD = st.secrets["WORK_ORDER_BOARD_ID"]
 DEAL_BOARD = st.secrets["DEAL_BOARD_ID"]
